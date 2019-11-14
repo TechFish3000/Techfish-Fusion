@@ -1,0 +1,8 @@
+{
+	"name": "Deuterium",
+  "description": "[red]([]GAS[red])[] 2 Hydrogen atoms linked together.",
+	"temperature": 0.5,
+    "viscosity": 0.01,
+   
+  "color": "c1dfff"
+}

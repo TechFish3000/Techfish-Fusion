@@ -1,0 +1,8 @@
+{
+	"name": "Hydrogen",
+  "description": "[red]([]GAS[red])[] Highly explosive hydrogen atoms",
+	"temperature": 0.5,
+    "viscosity": 0.01,
+    "effect": "burning",
+    "color": "ffc9c1"
+}

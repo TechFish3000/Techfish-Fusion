@@ -1,0 +1,8 @@
+{
+	"name": "Tritium",
+	"description": "[red]([]GAS[red])[] 3 Hydrogen atoms linked together.",
+	"temperature": 0.5,
+    "viscosity": 0.01,
+   
+    "color": "ffe9c1"
+}

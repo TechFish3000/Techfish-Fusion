@@ -1,0 +1,8 @@
+{
+	"name": "Oxygen",
+	"description": "[red]([]GAS[red])[] [white]Oxygen[].",
+	"temperature": 0.5,
+    "viscosity": 0.01,
+   
+    "color": "FFFFFF"
+}
