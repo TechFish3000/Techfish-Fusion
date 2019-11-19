@@ -4,26 +4,25 @@
   "description": "Splits [blue]Water[] into [white]Oxygen[] and [red]Hydrogen[].",
 
   "outputItem": {
-    "item": "iron_plate",
-    "amount": 1
+    "item": "hydrogen-can",
+    "amount": 2
+  },
+  "outputLiquid": {
+    "liquid": "oxygen",
+    "amount": 10.0
   },
   "size": 2,
   "hasPower": true,
-  "hasLiquids": false,
+  "hasLiquids": true,
   "hasItems": true,
   "craftTime": 60,
   "updateEffect": "smeltsmoke",
   "consumes": {
-    "power": 0.5,
-    "items": {
-      "items": [
-        
-        {
-          "item": "iron_ore",
-          "amount": 2
-        }
-      ]
-    }
+    "power": 1,
+    "liquid": {
+      "liquid": "water",
+      "amount": 10
+    },
 
 
   },
@@ -43,7 +42,7 @@
 
   ],
   "category": "crafting",
-  "research": "kiln",
+  "research": "separator",
   "idleSound": "respawning",
   "idleSoundVolume": 0.5
 }
