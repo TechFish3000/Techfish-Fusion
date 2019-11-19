@@ -2,26 +2,26 @@
   "type": "GenericSmelter",
   "name": "Electrolyser",
   "description": "Splits [blue]Water[] into [white]Oxygen[] and [red]Hydrogen[].",
-
+  "liquidCapacity": 500,
   "outputItem": {
     "item": "hydrogen-can",
-    "amount": 2
+    "amount": 4
   },
   "outputLiquid": {
     "liquid": "oxygen",
-    "amount": 10.0
+    "amount": 20
   },
   "size": 2,
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "craftTime": 60,
+  "craftTime": 240,
   "updateEffect": "smeltsmoke",
   "consumes": {
     "power": 1.0,
     "liquid": {
       "liquid": "water",
-      "amount": 10
+      "amount": 20
     },
 
 
