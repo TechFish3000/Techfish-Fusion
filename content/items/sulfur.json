@@ -1,0 +1,8 @@
+{
+  "type": "material",
+  "name": "Sulfur",
+  "description": "A common element.",
+  "hardness": 1,
+  "cost": 1.2,
+  "color": "ffff66"
+}

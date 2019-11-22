@@ -1,17 +1,17 @@
 {
   "type": "GenericSmelter",
-  "name": "Electrolyser",
+  "name": "Gridler Process Facility",
   "description": "Splits [blue]Water[] into [white]Oxygen[] and [red]Hydrogen[].",
   "liquidCapacity": 500,
   "outputItem": {
-    "item": "hydrogen-can",
-    "amount": 2
+    "item": "depleted-sulfur",
+    "amount": 3
   },
   "outputLiquid": {
-    "liquid": "oxygen",
-    "amount": 1
+    "liquid": "deuterium",
+    "amount": 3
   },
-  "size": 2,
+  "size": 4,
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
@@ -20,9 +20,18 @@
   "consumes": {
     "power": 1.0,
     "liquid": {
-      "liquid": "water",
+      "liquid": "heavy_water",
       "amount": 3
+    },
+    "items": {
+      "items": [
+        {
+          "item": "hysulf-can",
+          "amount": 4.0
+        }
+      ]
     }
+
 
 
   },

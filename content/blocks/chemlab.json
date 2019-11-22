@@ -1,15 +1,12 @@
 {
   "type": "GenericSmelter",
-  "name": "Electrolyser",
-  "description": "Splits [blue]Water[] into [white]Oxygen[] and [red]Hydrogen[].",
-  "liquidCapacity": 500,
-  "outputItem": {
-    "item": "hydrogen-can",
-    "amount": 2
-  },
+  "name": "Chemical Lab",
+  "description": "Creates hydrogen sulfide from hydrogen and sulfur.",
+  "liquidCapacity": 50,
+
   "outputLiquid": {
-    "liquid": "oxygen",
-    "amount": 1
+    "liquid": "hydrogen-sulfide",
+    "amount": 2
   },
   "size": 2,
   "hasPower": true,
@@ -20,8 +17,20 @@
   "consumes": {
     "power": 1.0,
     "liquid": {
-      "liquid": "water",
-      "amount": 3
+      "liquid": "hydrogen",
+      "amount": 2
+    },
+    "items": {
+      "items": [
+
+
+        {
+          "item": "sulfur",
+          "amount": 2
+
+        }
+
+      ]
     }
 
 
@@ -42,7 +51,7 @@
 
   ],
   "category": "crafting",
-  "research": "separator",
+  "research": "electrolyser",
   "idleSound": "respawning",
   "idleSoundVolume": 0.5
 }

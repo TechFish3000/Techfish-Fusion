@@ -1,7 +1,7 @@
 {
   "type": "material",
   "name": "[red]Hydrogen[] Canister",
-  "description": "Canister of [cyan]10[] units of [red]Hydrogen[].",
+  "description": "Canister of [cyan]1[] unit of [red]Hydrogen[].",
 
   "color": "959595"
 }
