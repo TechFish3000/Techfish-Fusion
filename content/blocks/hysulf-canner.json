@@ -1,35 +1,24 @@
 {
   "type": "GenericSmelter",
-  "name": "Gridler Process Facility",
-  "description": "Uses the Gridler Process to make water and hydrogen sulfide into deuerium.",
-  "liquidCapacity": 500,
+  "name": "Hydrogen sulfide canner",
+  "description": "Cans H2S.",
+  "liquidCapacity": 50,
+
   "outputItem": {
-    "item": "depleted-sulfur",
-    "amount": 3
+    "item": "hysulf-can",
+    "amount": 1
   },
-  "outputLiquid": {
-    "liquid": "deuterium",
-    "amount": 3
-  },
-  "size": 4,
+  "size": 1,
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "craftTime": 240,
+  "craftTime": 120,
   "updateEffect": "smeltsmoke",
   "consumes": {
-    "power": 2.0,
+    "power": 0.1,
     "liquid": {
-      "liquid": "water",
-      "amount": 3
-    },
-    "items": {
-      "items": [
-        {
-          "item": "hysulf-can",
-          "amount": 4.0
-        }
-      ]
+      "liquid": "hydrogen-sulfide",
+      "amount": 2
     }
 
 

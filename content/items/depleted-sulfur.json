@@ -1,0 +1,7 @@
+{
+  "type": "resource",
+  "name": "Depleted Sulfur",
+  "description": "Sulfur depleted of it's ions and such, currently unusable.",
+
+  "color": "ffff66"
+}

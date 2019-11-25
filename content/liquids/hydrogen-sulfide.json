@@ -1,0 +1,8 @@
+{
+	"name": "Hydrogen Sulfide",
+  "description": "Good, healthy, H2S. [red]Disclaimer: not good, nor healthy, do not consume.",
+	"temperature": 0.5,
+    "viscosity": 0.1,
+
+  "color": "ffff66"
+}
