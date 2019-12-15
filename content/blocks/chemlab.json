@@ -2,11 +2,11 @@
   "type": "GenericSmelter",
   "name": "Chemical Lab",
   "description": "Creates hydrogen sulfide from hydrogen and sulfur.",
-  "liquidCapacity": 50,
+  "liquidCapacity": 20,
 
   "outputLiquid": {
     "liquid": "hydrogen-sulfide",
-    "amount": 2
+    "amount": 3
   },
   "size": 2,
   "hasPower": true,
@@ -18,7 +18,7 @@
     "power": 1.0,
     "liquid": {
       "liquid": "hydrogen",
-      "amount": 2
+      "amount": 4
     },
     "items": {
       "items": [

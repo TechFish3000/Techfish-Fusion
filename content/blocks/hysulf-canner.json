@@ -2,13 +2,13 @@
   "type": "GenericSmelter",
   "name": "Hydrogen sulfide canner",
   "description": "Cans H2S.",
-  "liquidCapacity": 50,
+  "liquidCapacity": 20,
 
   "outputItem": {
     "item": "hysulf-can",
     "amount": 1
   },
-  "size": 1,
+  "size": 2,
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,

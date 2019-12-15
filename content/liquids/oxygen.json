@@ -2,7 +2,7 @@
 	"name": "Oxygen",
 	"description": "[red]([]GAS[red])[] [white]Oxygen[].",
 	"temperature": 0.5,
-    "viscosity": 0.01,
+    "viscosity": 0.2,
    
     "color": "FFFFFF"
 }
